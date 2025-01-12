@@ -18,7 +18,7 @@ function getRndInteger(min, max) {
 
 // createWord takes in a string and adds it to the canvas 
 function createWord(word) {
-    const canvas = document.getElementById('canvas');
+    const canvas = document.getElementById('words');
     const new_word = document.createElement('div');
 
 	word = word.slice(1, word.length - 1);

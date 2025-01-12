@@ -37,6 +37,10 @@
 	padding-bottom: 50px;
 }
 
+a:hover {
+	-webkit-text-fill-color: #5d81f7; 
+}
+
 .button {
 	transition-duration: 0.4s;
 	background-color: white;
@@ -51,7 +55,7 @@
 	background-color: #b6c6fa; 
   }
 
-  #canvas {
+#canvas {
 	display: flex;
 	flex-wrap: wrap;
     position: absolute; /* Allows precise placement */
@@ -64,6 +68,26 @@
     border: 2px solid black; /* Optional: For visibility */
     background-color: white; /* Optional: To differentiate from background */
 	border-radius: 8px;
+}
+
+#words {
+	display: flex;
+	flex-wrap: wrap;
+	width: 300px;
+	height: auto;
+	padding: 5px;
+	border: 2px solid black; /* Optional: For visibility */
+    background-color: white; /* Optional: To differentiate from background */
+	border-radius: 8px;
+}
+
+#poem {
+	width: 783px;
+	display: flex;
+	border: 2px solid black; /* Optional: For visibility */
+    background-color: white; /* Optional: To differentiate from background */
+	border-radius: 8px;
+	
 }
 
 .word {
